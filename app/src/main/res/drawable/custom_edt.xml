@@ -5,10 +5,9 @@
     <size android:width="250dp"
         android:height="50dp"/>
 
-    <gradient android:startColor="@color/white"/>
-    <gradient android:endColor="@color/white"/>
-    <corners android:radius="10dp"/>
-    <stroke android:color="@color/black"
-        android:width="1dp"/>
+    <gradient android:startColor="@color/lightgray"/>
+    <gradient android:endColor="@color/lightgray"/>
+    <corners android:radius="20dp"/>
+
 
 </shape>
