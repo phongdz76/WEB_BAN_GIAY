@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Intent"
+rootProject.name = "mainlayout"
 include(":app")
  
