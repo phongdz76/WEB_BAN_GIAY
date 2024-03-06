@@ -14,7 +14,7 @@
         android:background="@drawable/back"
         />
 
-    <TextView
+    <EditText
 
         android:layout_width="376dp"
         android:layout_height="wrap_content"

@@ -15,26 +15,23 @@
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:navigationIcon="@drawable/back"
-        app:title="Settings"
+        app:title="Edit profile"
         app:titleCentered="true" />
 
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Account"
-        android:textStyle="bold"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:textSize="20dp"
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/user_circle_plus"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         />
 
     <TextView
 
         android:layout_width="386dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/custom_edt"
         android:drawableLeft="@drawable/user"
         android:drawableRight="@drawable/right"
@@ -42,125 +39,73 @@
         android:gravity="center_vertical"
         android:paddingLeft="10dp"
         android:paddingRight="20dp"
-        android:text="Edit Profile"
+        android:text="Name"
+        android:textStyle="bold"
+        />
+    <TextView
+
+        android:layout_width="386dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edt"
+        android:drawableLeft="@drawable/gender"
+        android:drawableRight="@drawable/right"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="Gender"
         android:textStyle="bold"
         />
 
     <TextView
 
         android:layout_width="386dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@drawable/custom_edt"
-        android:drawableLeft="@drawable/password_26"
+        android:drawableLeft="@drawable/email"
         android:drawableRight="@drawable/right"
         android:drawablePadding="30dp"
         android:gravity="center_vertical"
         android:paddingLeft="10dp"
         android:paddingRight="20dp"
-        android:text="Change Password"
-        android:textStyle="bold"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Settings"
-        android:textStyle="bold"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:textSize="20dp"
-        />
-
-    <TextView
-
-        android:layout_width="386dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/custom_edt"
-        android:drawableLeft="@drawable/bell"
-        android:drawableRight="@drawable/right"
-        android:drawablePadding="30dp"
-        android:gravity="center_vertical"
-        android:paddingLeft="10dp"
-        android:paddingRight="20dp"
-        android:text="Notifications"
-        android:textStyle="bold"
-        />
-
-
-
-    <TextView
-
-        android:layout_width="386dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/custom_edt"
-        android:drawableLeft="@drawable/shopping"
-        android:drawableRight="@drawable/right"
-        android:drawablePadding="30dp"
-        android:gravity="center_vertical"
-        android:paddingLeft="10dp"
-        android:paddingRight="20dp"
-        android:text="Shopping"
-        android:textStyle="bold"
-        />
-
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Help"
-        android:textStyle="bold"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:textSize="20dp"
-        />
-
-    <TextView
-
-        android:layout_width="386dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/custom_edt"
-        android:drawableLeft="@drawable/question"
-        android:drawableRight="@drawable/right"
-        android:drawablePadding="30dp"
-        android:gravity="center_vertical"
-        android:paddingLeft="10dp"
-        android:paddingRight="20dp"
-        android:text="Help and support"
+        android:text="Email"
         android:textStyle="bold"
         />
     <TextView
 
         android:layout_width="386dp"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@drawable/custom_edt"
-        android:drawableLeft="@drawable/info"
+        android:drawableLeft="@drawable/phone"
         android:drawableRight="@drawable/right"
         android:drawablePadding="30dp"
         android:gravity="center_vertical"
         android:paddingLeft="10dp"
         android:paddingRight="20dp"
-        android:text="About"
+        android:text="Phone"
         android:textStyle="bold"
         />
-    <androidx.appcompat.widget.AppCompatButton
+    <TextView
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_width="386dp"
+        android:layout_height="60dp"
         android:layout_gravity="center"
-        android:background="@drawable/custom_button"
-        android:text="Log out"
-        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edt"
+        android:drawableLeft="@drawable/map"
+        android:drawableRight="@drawable/right"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="Location"
+        android:textStyle="bold"
         />
 
 
@@ -172,12 +117,7 @@
 
 
 
-
-
-
-
-
-
+    
 
 
 </LinearLayout>
