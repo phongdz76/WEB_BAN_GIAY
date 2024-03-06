@@ -8,14 +8,167 @@
     >
 
     <com.google.android.material.appbar.MaterialToolbar
+
         android:id="@+id/materialToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:navigationIcon="@drawable/back"
-        app:title="Setting"
+        app:title="Settings"
         app:titleCentered="true" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edt"
+        android:drawableLeft="@drawable/user"
+        android:drawableRight="@drawable/right"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="Edit Profile"
+        android:textStyle="bold"
+        />
+
+    <TextView
+
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edt"
+        android:drawableLeft="@drawable/password_26"
+        android:drawableRight="@drawable/right"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="Change Password"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edt"
+        android:drawableLeft="@drawable/bell"
+        android:drawableRight="@drawable/right"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="Notifications"
+        android:textStyle="bold"
+        />
+
+    <TextView
+
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edt"
+        android:drawableLeft="@drawable/translate"
+        android:drawableRight="@drawable/right"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="Language"
+        android:textStyle="bold"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edt"
+        android:drawableLeft="@drawable/question"
+        android:drawableRight="@drawable/right"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="Help and support"
+        android:textStyle="bold"
+        />
+    <TextView
+
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_edt"
+        android:drawableLeft="@drawable/info"
+        android:drawableRight="@drawable/right"
+        android:drawablePadding="30dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:text="About"
+        android:textStyle="bold"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:text="Log out"
+        android:textColor="@color/white"
+        />
+
+
+
+
+
+
+
+
+
 
 
 
