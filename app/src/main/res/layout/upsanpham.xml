@@ -102,6 +102,7 @@
                 android:background="@drawable/custom_edt"
                 android:layout_marginTop="20dp"
                 android:padding="16dp"
+                android:drawableRight="@drawable/currency_dollar_simple"
                 android:inputType="number"
                 android:hint="Enter Price"
                 android:gravity="start|center_vertical"

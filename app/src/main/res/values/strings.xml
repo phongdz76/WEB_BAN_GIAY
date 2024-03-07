@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Adidas</string>
+    <string name="select">Select Item</string>
 
 </resources>

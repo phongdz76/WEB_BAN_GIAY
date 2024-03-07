@@ -40,8 +40,8 @@
         android:paddingLeft="10dp"
         android:paddingRight="20dp"
         android:text="Name"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
+
     <TextView
 
         android:layout_width="386dp"
