@@ -98,13 +98,13 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@drawable/custom_edt"
-        android:drawableLeft="@drawable/map"
+        android:drawableLeft="@drawable/password_26"
         android:drawableRight="@drawable/right"
         android:drawablePadding="30dp"
         android:gravity="center_vertical"
         android:paddingLeft="10dp"
         android:paddingRight="20dp"
-        android:text="Location"
+        android:text="Change Password"
         android:textStyle="bold"
         />
 

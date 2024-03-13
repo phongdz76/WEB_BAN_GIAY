@@ -14,8 +14,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="currency_dollar_simple" />
-                            <entry key="sourceFile" value="D:\Game\svg\currency-dollar-simple.svg" />
+                            <entry key="outputName" value="dong" />
+                            <entry key="sourceFile" value="D:\Game\svg\dong.svg" />
                           </map>
                         </option>
                       </PersistentState>
